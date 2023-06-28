@@ -1,0 +1,12 @@
+start=int(input("enter the starting number for range:"))
+end=int(input("enter the starting number for range:"))
+a=0
+b=1
+sum=0
+print("fib0nacci series between",start,"to",end,"is:")
+while(sum<end):
+    a=b
+    b=sum
+    sum=a+b
+    print(b)
+print(end="")
